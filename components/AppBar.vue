@@ -141,7 +141,7 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-    @apply fixed flex justify-between items-center w-full font-mono h-bcNavHeight bg-bcColorTitle opacity-90
+    @apply fixed flex justify-between items-center w-full font-mono h-bcNavHeight bg-bcColorTitle opacity-80
     px-6 md:px-10 lg:px-12 backdrop-filter backdrop-blur-sm shadow-appbar transition-all;
 
     .logo {
