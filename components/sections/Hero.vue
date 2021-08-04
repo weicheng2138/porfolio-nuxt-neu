@@ -40,7 +40,7 @@
                 href="mailto:weicheng2138@gmail.com"
                 class="
                     flex
-                    bigButton
+                    lightButton
                     text-bcSm
                     px-7
                     py-5

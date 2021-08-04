@@ -6,9 +6,10 @@
             I'm currently looking for any new opportunities. If you're
             interested, email me.
         </p>
+
         <a
             href="mailto:weicheng2138@gmail.com"
-            class="flex bigButton text-bcSm px-7 py-5 w-max mt-bcTouchButton"
+            class="flex lightButton text-bcSm px-7 py-5 w-max mt-bcTouchButton"
         >
             Get In Touch
         </a>

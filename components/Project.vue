@@ -16,17 +16,19 @@
             <h3 class="z-0 text-bcColor font-mono text-bcXxs pb-3">
                 Featured Project
             </h3>
-            <h3 class="z-0 text-bcWhite pb-6">{{ title }}</h3>
+            <h3 class="z-0 text-bcSlate pb-6">{{ title }}</h3>
             <p
                 class="
                     z-20
                     text-bcMd
                     pb-6
-                    md:bg-bcLightNavy
+                    text-bcLightSlate
+                    md:text-bcLightestSlate
+                    md:bg-bcColorTitle
                     md:p-4
                     md:mb-4
                     md:rounded-md
-                    md:shadow-lg
+                    md:shadow-xl
                 "
                 :class="[order ? 'md:text-right' : '']"
             >
@@ -127,12 +129,15 @@ export default {
 
 <style lang="scss" scoped>
 .imgContainer {
-    @apply absolute bg-bcColor opacity-20 bg-blend-multiply h-[30vh] w-full transition-all md:hover:cursor-pointer
+    @apply absolute bg-bcColor opacity-20 bg-blend-multiply h-[30vh] w-full transition duration-300 ease-in md:hover:cursor-pointer
     md:hover:bg-blend-normal md:opacity-100 md:w-8/12 md:top-1/4 h-full rounded-md;
     background-size: cover;
     background-repeat: no-repeat;
 }
 a {
     @apply flex p-3 hover:text-bcColor text-bcLightestSlate transition duration-500 ease-bcEasing;
+    svg {
+        @apply stroke-current text-bcLightSlate;
+    }
 }
 </style>

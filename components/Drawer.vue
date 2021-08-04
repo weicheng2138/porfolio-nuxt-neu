@@ -2,8 +2,8 @@
     <div
         class="
             drawer
-            bg-bcLightNavy
-            text-bcLightestSlate
+            bg-bgColor
+            text-bcLightSlate
             fixed
             inset-y-0
             right-0
@@ -45,7 +45,7 @@
             <a
                 href="/weichenghung_cv.pdf"
                 target="_blank"
-                class="bigButton text-bcXs py-4 px-12 mx-auto mt-8 min-w-max"
+                class="lightButton text-bcXs py-4 px-12 mx-auto mt-8 min-w-max"
             >
                 Resume
             </a>

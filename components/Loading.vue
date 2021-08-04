@@ -20,7 +20,6 @@
                             <path
                                 id="frame"
                                 d="M83.5748 29.9083L83.5866 29.9293L83.5989 29.95L94.6376 48.5484C95.0111 49.1777 95.0111 49.9607 94.6376 50.59L83.5989 69.1884L83.5866 69.2091L83.5748 69.2302L72.9874 88.0892C72.6292 88.7273 71.9511 89.1188 71.2194 89.11L49.5933 88.8494L49.5692 88.8491L49.5451 88.8494L27.9191 89.11C27.1873 89.1188 26.5092 88.7273 26.151 88.0892L15.5637 69.2302L15.5519 69.2091L15.5396 69.1884L4.50085 50.59C4.12735 49.9607 4.12735 49.1777 4.50085 48.5484L15.5396 29.95L15.5519 29.9293L15.5637 29.9083L26.151 11.0493C26.5092 10.4112 27.1873 10.0196 27.9191 10.0285L49.5451 10.2891L49.5692 10.2894L49.5933 10.2891L71.2194 10.0285C71.9511 10.0196 72.6292 10.4112 72.9874 11.0493L83.5748 29.9083Z"
-                                stroke="#64ffda"
                                 stroke-width="4"
                                 class="
                                     transition
@@ -28,7 +27,7 @@
                                     ease-bcEasing
                                     hover:bg-opacity-10
                                     hover:fill-current
-                                    text-green-600
+                                    text-bcColor
                                 "
                                 fill-opacity="0.1"
                 />
@@ -50,11 +49,11 @@ export default {
 
 <style scoped>
 .loading {
-    @apply flex justify-center items-center bg-bcDarkNavy;
+    @apply flex justify-center items-center bg-bgColor;
 }
 
 #wei {
-    stroke: #64ffda;
+    @apply stroke-current text-bcColor;
     stroke-width: 0.4px;
     stroke-linecap: round;
     animation: textAnimate 3.5s;
@@ -63,6 +62,7 @@ export default {
 
 /* #wei, */
 #frame {
+    @apply stroke-current text-bcColor;
     animation: fadeInUp 2s;
     animation-fill-mode: forwards;
 }
@@ -94,7 +94,7 @@ export default {
         fill: transparent;
     }
     80% {
-        fill: #64ffda;
+        @apply fill-current text-bcColor;
         opacity: 1;
     }
     100% {

@@ -117,7 +117,6 @@
         </div>
         <a
             href="https://github.com/weicheng2138/portfolio-nuxt"
-            class="text-gray-300 hover:text-emerald-500 font-mono text-xs p-1"
             target="_blank"
             rel="noopener noreferrer"
         >
@@ -126,7 +125,6 @@
 
         <a
             href="https://github.com/bchiang7/v4"
-            class="text-gray-300 hover:text-emerald-300 font-mono text-xs p-1"
             target="_blank"
             rel="noopener noreferrer"
         >
@@ -153,7 +151,7 @@ export default {
 .social {
     @apply md:hidden flex mb-3  w-full max-w-[267px] justify-between;
     a {
-        @apply flex p-3 hover:text-bcColor text-bcLightestSlate transition duration-500 ease-bcEasing;
+        @apply flex p-3 transition duration-500 ease-bcEasing hover:text-bcColor;
         svg {
             width: 20px;
             height: 20px;
@@ -162,6 +160,6 @@ export default {
 }
 
 a {
-    @apply text-bcLightestSlate;
+    @apply text-bcLightSlate hover:text-bcColor font-mono text-xs p-1;
 }
 </style>

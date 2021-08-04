@@ -38,19 +38,19 @@ module.exports = {
                 cwc: {
                     100: "#000000",
                 },
-                bgColor: "#0a192f",
-                bcColor: "#64ffda",
-                bcColorTitle: "#ccd6f6",
-                bcColorText: "#8892b0",
+                bgColor: "#E5E7EB",
+                bcColor: "#ef8354",
+                bcColorTitle: "#344E41",
+                bcColorText: "#3A5A40",
                 bcDarkNavy: "#020c1b",
-                bcLightNavy: "#112240",
-                bcLightestNavy: "#233554",
+                bcLightNavy: "#DAD7CD",
+                bcLightestNavy: "#DAD7CD",
                 bcNavyShadow: "rgba(2, 12, 27, 0.7)",
                 bcDarkSlate: "#495670",
-                bcSlate: "#8892b0",
-                bcLightSlate: "#a8b2d1",
-                bcLightestSlate: "#ccd6f6",
-                bcWhite: "#e6f1ff;",
+                bcSlate: "#588157",
+                bcLightSlate: "#588157",
+                bcLightestSlate: "#b5b5b5",
+                bcWhite: "#ced4da;",
                 bcColorTint: "rgba(100, 255, 218, 0.1)",
             },
             borderRadius: {
@@ -73,7 +73,7 @@ module.exports = {
                 250: "250ms",
             },
             outline: {
-                bcStyle: ["2px dashed #64ffda", "3px"],
+                bcStyle: ["2px dashed #ef8354", "3px"],
             },
             inset: {
                 sideLg: "40px",
@@ -81,12 +81,18 @@ module.exports = {
             },
             boxShadow: {
                 appbar: "0 10px 30px -10px rgba(2, 12, 27, 0.7)",
+                lightOuter: "-6px -6px 7px #ffffff73, 6px 6px 7px #D1D5DB",
+                lightInner:
+                    "inset -6px -6px 7px #ffffff73, inset 6px 6px 7px #D1D5DB",
+                darkOuter: "6px 6px 12px #2c4237, -6px -6px 12px #3c5a4b",
+                darkInner:
+                    "inset -6px -6px 7px #2c4237, inset 6px 6px 7px #3c5a4b",
+                light2XL: "0 25px 30px -12px #000000",
             },
             maxWidth: {
                 "900": "900px",
             },
         },
-
         screens: {
             sm: "480px",
             md: "768px",
