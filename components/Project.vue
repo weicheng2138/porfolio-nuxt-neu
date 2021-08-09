@@ -129,8 +129,8 @@ export default {
 
 <style lang="scss" scoped>
 .imgContainer {
-    @apply absolute bg-bcColor opacity-20 bg-blend-multiply h-[30vh] w-full transition duration-300 ease-in md:hover:cursor-pointer
-    md:hover:bg-blend-normal md:opacity-100 md:w-8/12 md:top-1/4 h-full rounded-md;
+    @apply absolute bg-bcColor opacity-20 bg-blend-multiply h-full w-full md:transition duration-500  md:hover:cursor-pointer
+    md:hover:bg-transparent md:opacity-100 md:w-8/12 md:top-1/4 rounded-md;
     background-size: cover;
     background-repeat: no-repeat;
 }
