@@ -43,7 +43,7 @@
                 {{ link.name }}
             </NuxtLink>
             <a
-                href="/weichenghung_cv.pdf"
+                href="/weichenghung_cv_l2.pdf"
                 target="_blank"
                 class="lightButton text-bcXs py-4 px-12 mx-auto mt-8 min-w-max"
             >
