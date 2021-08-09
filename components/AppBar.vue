@@ -64,7 +64,7 @@
                     {{ link.name }}
                 </NuxtLink>
                 <a
-                    href="/weichenghung_cv.pdf"
+                    href="/weichenghung_cv_l2.pdf"
                     target="_blank"
                     v-animate-delay:fade-down="500"
                     class="darkButton text-bcXs ml-4 py-2 px-4"
