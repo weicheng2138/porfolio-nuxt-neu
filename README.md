@@ -14,18 +14,9 @@
 
 ![demo](static/img/portfolio_screenshot.png)
 
-This is a porfolio practice which consider [brittanychiang.com](https://brittanychiang.com) as my reference. My purpose is to reverse engineer her site and use the same appearance. One of goal is transforming [Gatsby](https://www.gatsbyjs.org/docs/) to [Nuxt](https://nuxtjs.org/) by using different front-end framework to do the job. This is simply for practice.
+This is my portfolio which consider design of [brittanychiang.com](https://brittanychiang.com) as my reference and change theme from my practice project of [portfolio-nuxt](https://weichenghung-demo.netlify.app/). Change theme color and neumorphic design for button.
 
-## Survey and Preparation
-
-1. Tips of Nuxt
-
-    - Enter point of the project: layouts/default.vue => pages/index.vue. Then you can break down from those components and pages.
-    - asyncData() can not be used in components, components take only pure vue stuff.
-    - Normal spa mode will load empty dom, but not universal mode (SSR). SSR web will load dom at the beginning. SSR will evalute the vue component in the server (SEO purpose for existing DOM). After the first load (refresh), it will run on client side (Turn to be SPA), including nuxt-link and router.
-    - Components in folder where you put your section in will auto import with the proper name in template such as components/sections/comp.vue => <SectionsComp />
-
-## Build Setup
+## 🛠️ Build Setup
 
 ```bash
 # install dependencies
@@ -43,3 +34,14 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## 🎨 Color Reference
+
+| Color                      | Hex                                                                |
+| -------------------------- | ------------------------------------------------------------------ |
+| Background Color (bgColor) | ![#E5E7EB](https://via.placeholder.com/10/E5E7EB?text=+) `#E5E7EB` |
+| Slate                      | ![#588157](https://via.placeholder.com/10/588157?text=+) `#588157` |
+| Light Slate                | ![#588157](https://via.placeholder.com/10/588157?text=+) `#588157` |
+| Lightest Slate             | ![#b5b5b5](https://via.placeholder.com/10/b5b5b5?text=+) `#b5b5b5` |
+| White                      | ![#ced4da](https://via.placeholder.com/10/ced4da?text=+) `#ced4da` |
+| Orange (bcColor)           | ![#ef8354](https://via.placeholder.com/10/ef8354?text=+) `#ef8354` |
