@@ -10,16 +10,16 @@
                     </p>
                     <p class="my-4">
                         The reason why I'm interested in web development started
-                        back in 2015 when I am struggle in develop an internal
-                        system with JavaServer Pages（JSP）in Anhe. After that
-                        we switch the developing direction to Angular 2, then
-                        every turns out to be bright and interesting.
+                        back in 2015 when I am struggling with developing an
+                        internal system with JavaServer Pages（JSP）in Anhe.
+                        After that we switch the developing direction to Angular
+                        2, then every turns out to be bright and interesting.
                     </p>
                     <p class="my-4">
                         Furthermore, I am eager to join a solid programming
-                        team, participate the whole process of the project and
-                        accumulate experience. My personality is easy-going but
-                        not sloppy.
+                        team, participating in the whole process of the project
+                        and accumulate experience. My personality is easy-going
+                        but not sloppy.
                     </p>
                     <p>
                         Here are technologies I've been working with recently:

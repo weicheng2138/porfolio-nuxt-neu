@@ -46,7 +46,7 @@
                     mt-bcTouchButton
                 "
             >
-                Get In Touch
+                Contact Me
             </a>
         </div>
     </section>
