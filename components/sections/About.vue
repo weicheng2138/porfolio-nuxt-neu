@@ -16,9 +16,10 @@
                         every turns out to be bright and interesting.
                     </p>
                     <p class="my-4">
-                        Problem based learning is always my key way of solving
-                        problems which clear my purpose and also solve the
-                        problem effetively.
+                        Furthermore, I am eager to join a solid programming
+                        team, participate the whole process of the project and
+                        accumulate experience. My personality is easy-going but
+                        not sloppy.
                     </p>
                     <p>
                         Here are technologies I've been working with recently:

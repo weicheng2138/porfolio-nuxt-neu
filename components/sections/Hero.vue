@@ -30,10 +30,8 @@
                 v-animate-delay:fade-up="1500"
                 class="text-bcSlate mt-5 mb-0 max-w-lg leading-[1.3] text-bcLg"
             >
-                I'm a software engineer specializing in building interfaces and
-                application of web. Since I have not worked in a solid software
-                team, I would like to join one to improve my co-working skill
-                and UX techniques.
+                I'm a result-driven and customer-focused front-end developer
+                specializing in building interfaces and application of web.
             </p>
             <a
                 v-animate-delay:fade-up="1600"
