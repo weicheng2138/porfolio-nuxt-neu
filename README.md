@@ -1,7 +1,7 @@
 # porfolio-nuxt-neu
 
 <p align="center">
-    <a href="https://weichenghung.com" target="_blank">
+    <a href="https://weicheng.dev" target="_blank">
         weichenghung.com
     </a>
 </p>
