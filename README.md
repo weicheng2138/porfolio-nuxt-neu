@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://weicheng.dev" target="_blank">
-        weichenghung.com
+        weicheng.dev
     </a>
 </p>
 
